@@ -1,0 +1,26 @@
+.m-header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+    height: 80px;
+    background-color: $white;
+    color: $cyan;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(50,50,50,.5);
+    -moz-box-shadow: 0 2px 5px 0 rgba(50,50,50,.5);
+    box-shadow: 0 2px 5px 0 rgba(50,50,50,.5);
+	z-index: 100;
+	
+	&__link {
+		color: $cyan;
+
+		&:hover {
+			color: $cyan;
+			text-decoration: none;
+		}
+	}
+}

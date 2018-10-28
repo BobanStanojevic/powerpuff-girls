@@ -1,0 +1,24 @@
+@import "./mixins";
+@import "./variables";
+@import "./reset";
+@import "./breakpoints";
+@import "./grid";
+
+// ATOMS
+@import "../components/atoms/Image/image.scss";
+@import "../components/atoms/Loader/loader.scss";
+
+// MOLECULES
+@import "../components/molecules/Header/header.scss";
+@import "../components/molecules/Footer/footer.scss";
+@import "../components/molecules/ShowDescription/showDescription.scss";
+@import "../components/molecules/ShowSeasons/showSeasons.scss";
+@import "../components/molecules/Episode/episode.scss";
+@import "../components/molecules/ErrorMessage/errorMessage.scss";
+
+//CONTAINERS
+@import "../containers/Root/root.scss";
+@import "../containers/NotFoundApp/notFoundApp.scss";
+@import "../containers/ShowInfoApp/showInfoApp.scss";
+@import "../containers/EpisodeInfoApp/episodeInfoApp.scss";
+

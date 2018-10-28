@@ -1,0 +1,19 @@
+.m-showSeasons {
+	&__season {
+		padding: $s-6;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	&__link {
+		color: $cyan;
+		display: flex;
+		flex: 1 1 30%;
+		padding: $s-8;
+
+		&:hover {
+			color: $cyan;
+		}
+	}
+}

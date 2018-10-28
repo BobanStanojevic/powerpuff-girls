@@ -1,0 +1,21 @@
+.m-episode {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+		
+	&__img {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__info {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
